@@ -2,9 +2,17 @@
 
 O poder dessa planilha reside num menu personalizado para o CA que pode ser visto na barra superior de opções dela, chamado 'Funções do CA'. Ele contém 3 opções que automatizam funções que, se fossem feitas manualmente, poderiam demorar absurdos:
 
-- 'Atualizar formulário do Google Forms': essa opção recria o formulário do zero com as informações atualizadas dos alunos, do instrutor e dos critérios. Isto é, não será mais preciso editar manualmente o formulário e incluir, para cada aluno, um bloco de edição para que ele seja avaliado, nem editar manualmente os nomes dos critérios ou da escala de avaliação manualmente em todos esses blocos.
-- 'Criar relatórios individuais em PDF': essa opção pega os dados das avaliações registradas pelos alunos e cria um PDF individual de relatório para cada aluno, informando a média da avaliação que ele recebeu tanto dos outros alunos (horizontal) quanto do seu instrutor (vertical). Além disso, essa opção salva todos esses PDFs em uma pasta do Google Drive do usuário que a estiver usando. O relatório é criado com base no template da aba 'Template', e os PDFs criados são listados na aba 'Relatórios'.
-- 'Enviar os relatórios por e-mail': uma vez que os relatórios tenham sido criados utilizando a opção acima, essa opção envia automaticamente para cada aluno, por meio do e-mail registrado para ele na aba 'Alunos', o PDF anexado do relatório individual dele.
+#### *'Atualizar formulário do Google Forms'*
+
+Essa opção recria o formulário do zero com as informações atualizadas dos alunos, do instrutor e dos critérios. Isto é, não será mais preciso editar manualmente o formulário e incluir, para cada aluno, um bloco de edição para que ele seja avaliado, nem editar manualmente os nomes dos critérios ou da escala de avaliação manualmente em todos esses blocos.
+
+#### *'Criar relatórios individuais em PDF'*
+
+Essa opção pega os dados das avaliações registradas pelos alunos e cria um PDF individual de relatório para cada aluno, informando a média da avaliação que ele recebeu tanto dos outros alunos (horizontal) quanto do seu instrutor (vertical). Além disso, essa opção salva todos esses PDFs em uma pasta do Google Drive do usuário que a estiver usando. O relatório é criado com base no template da aba 'Template', e os PDFs criados são listados na aba 'Relatórios'.
+
+#### *'Enviar os relatórios por e-mail'*
+
+Uma vez que os relatórios tenham sido criados utilizando a opção acima, essa opção envia automaticamente para cada aluno, por meio do e-mail registrado para ele na aba 'Alunos', o PDF anexado do relatório individual dele.
 
 No entanto, para o correto funcionamento dessas opções, é preciso que alguns critérios sejam atendidos:
 - A planilha e o formulário devem saber o link um do outro, e é necessário garantir isso caso você crie cópias do formulário e da planilha.
