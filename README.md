@@ -1,3 +1,8 @@
+## Formulário e Planilha Bases
+
+- [Formulário Base](https://docs.google.com/forms/d/1aHbnJZJk83ryBzDn17t8851JMmbifpWbJgF2lwuNyQQ/edit)
+- [Planilha Base](https://docs.google.com/spreadsheets/d/1UReIduX3u1oipZ1_SqkeGQPN5eBJSqzjL7hakhyZ1cM/edit)
+
 ## Propósito
 
 O poder dessa planilha reside num menu personalizado para o CA que pode ser visto na barra superior de opções dela, chamado 'Funções do CA'. Ele contém 3 opções que automatizam funções que, se fossem feitas manualmente, poderiam demorar absurdos:
