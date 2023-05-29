@@ -110,3 +110,8 @@ Com os relatórios PDF criados, você pode consultar cada um na aba 'Relatórios
 2. Selecione a opção 'Criar relatórios individuais em PDF'
 
 Ele avisará que o script entrou em execução, e avisará quando terminar. No canto inferior direito da tela você verá pequenos popups informado de qual aluno está sendo enviado o e-mail a cada momento.
+
+Caso queira testar o envio dos PDFs, é possível configurar um parâmetro do script para que todos os PDFs sejam enviados para o e-mail do instrutor ao invés de o e-mail de cada aluno:
+1. Na planilha, selecione o menu Extensões > Apps Script > Arquivos > Parâmetros.gs
+2. Mude a constante EMAIL_OVERRIDE para true
+3. Se não quiser mais testar, e quiser que os e-mails de fato sejam enviados para cada aluno com seu respectivo relatório, mude essa parâmetro para false
