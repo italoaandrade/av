@@ -38,7 +38,7 @@ function getAverages()
     
     if (averages[student.number].horizontal.length == 0) delete averages[student.number].horizontal
     if (verticalGrades && student.number in verticalGrades)
-      averages[student.number].vertical = verticalGrades[student.number].map(grade => grade.replace('.', ','))
+      averages[student.number].vertical = verticalGrades[student.number].map(grade => Number(grade).toString().replace('.', ','))
   })
 
   return averages
