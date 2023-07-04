@@ -4,6 +4,15 @@
  */
 function createReports()
 {
+  var ui = SpreadsheetApp.getUi()
+  var response = ui.alert(
+    'Criar relatórios em PDF',
+    'Esse procedimento criará um PDF com o relatório das médias horizontais e verticais de cada aluno em cada critério de avaliação, e salvará todos na pasta do seu Drive onde está essa planilha, além de mostrar os links para cada relatório na aba "Relatórios" dessa planilha. Isso pode levar vários minutos. Deseja continuar?',
+    ui.ButtonSet.YES_NO
+  )
+
+  if (response !== ui.Button.YES) return
+
   const averages = getAverages()
   const students = getStudents()
   const criteria = getQuestions()[0]
