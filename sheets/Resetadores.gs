@@ -4,6 +4,15 @@
  */
 function populateForm()
 {
+  var ui = SpreadsheetApp.getUi()
+  var response = ui.alert(
+    'Recriar o formulário',
+    'Esse procedimento recriará o formulário, inclusive apagando as respostas que já tiverem sido registradas. Tem certeza de que deseja continuar?',
+    ui.ButtonSet.YES_NO
+  )
+
+  if (response !== ui.Button.YES) return
+
   // Esvazia o forms
   sheet.toast('Recriando o formulário com base nas novas configurações...', 'Controle de Avaliações', 3)
   const form = FormApp.openByUrl(FORM_URL)
