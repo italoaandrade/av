@@ -3,6 +3,20 @@
 - [Formulário Base](https://docs.google.com/forms/d/1aHbnJZJk83ryBzDn17t8851JMmbifpWbJgF2lwuNyQQ/edit)
 - [Planilha Base](https://docs.google.com/spreadsheets/d/1UReIduX3u1oipZ1_SqkeGQPN5eBJSqzjL7hakhyZ1cM/edit)
 
+## Correção de Bugs
+
+Se você criou a planilha antes do dia 04/07/2023, é preciso atualizar 4 arquivos do script. Na pasta ```Correções``` desse repositório você vai encontrar os 4 arquivos com as versões atualizadas:
+- ```Emails.gs```
+- ```Médias.gs```
+- ```PDF.gs```
+- ```Resetadores.gs```
+
+Siga os passos abaixo:
+1. Na planilha, selecione sequencialmente o menu ```Extensões > Apps Script > Arquivos > Médias.gs```.
+2. Apague todo esse código, e substitua pelo código do arquivo atualizado ```Médias.gs``` que está na pasta ```Correções``` desse repositório.
+3. Faça o mesmo procedimento para atualizar os outros 3 arquivos (```Resetadores.gs```, ```PDF.gs``` e ```Emails.gs```).
+4. Ao final, o script da planilha estará atualizado e funcional.
+
 ## Propósito
 
 O poder dessa planilha reside num menu personalizado para o CA que pode ser visto na barra superior de opções dela, chamado 'Funções do CA'. Ele contém 3 opções que automatizam funções que, se fossem feitas manualmente, poderiam demorar absurdos:
