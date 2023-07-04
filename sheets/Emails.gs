@@ -5,6 +5,15 @@
  */
 function sendEmails()
 {
+  var ui = SpreadsheetApp.getUi()
+  var response = ui.alert(
+    'Enviar os relatórios por e-mail',
+    'Tem certeza de que deseja enviar os relatórios por e-mail? Só serão enviados os relatórios que ainda não estiverem marcados como "Enviado" na aba de Relatórios.',
+    ui.ButtonSet.YES_NO
+  )
+
+  if (response !== ui.Button.YES) return
+
   const reportsSheet = sheet.getSheetByName(REPORTS_SHEET_NAME)
   const reports = reportsSheet.getRange(2, 1, reportsSheet.getLastRow(), reportsSheet.getLastColumn()).getValues().filter(row => row[0])
   
