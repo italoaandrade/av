@@ -115,7 +115,7 @@ Você verá que ele só usa a API da sua conta para salvar os relatórios PDF no
 Com o formulário criado, você pode enviar o link dele (não o de edição, claro, mas o de preenchimento) para os alunos preencherem e registrarem as avaliações horizontais. Envie também para o instrutor realizar a avaliação vertical.
 
 Na aba ```Alunos```, é possível verificar pelo checkbox na coluna ```E``` os alunos que já preencheram o formulário. Quando todos houverem preenchido e também o avaliador vertical, basta:
-1. Na aba ```Template``` da planilha, conferir o ano e o período de avaliação e alterar, se necessário.
+1. Na aba ```Template``` da planilha, confira o ano correspondente e o período de avaliação. Se necessário, altere.
 2. Selecione o menu personalizado ```Funções do CA```.
 3. Selecione a opção ```Criar relatórios individuais em PDF```.
 4. Esperar até o término do processo. Pode levar alguns minutos.
