@@ -6,10 +6,10 @@
 ## Correção de Bugs
 
 Se você criou a planilha antes do dia 04/07/2023, é preciso atualizar 4 arquivos do script. Na pasta ```Correções``` desse repositório você vai encontrar os 4 arquivos com as versões atualizadas:
-- ```Emails.gs```
-- ```Médias.gs```
-- ```PDF.gs```
-- ```Resetadores.gs```
+- [Emails.gs](https://github.com/vonkakarius/avaliacao-horizontal/blob/main/Corre%C3%A7%C3%B5es/Emails.gs)
+- [Médias.gs](https://github.com/vonkakarius/avaliacao-horizontal/blob/main/Corre%C3%A7%C3%B5es/M%C3%A9dias.gs)
+- [PDF.gs](https://github.com/vonkakarius/avaliacao-horizontal/blob/main/Corre%C3%A7%C3%B5es/PDF.gs)
+- [Resetadores.gs](https://github.com/vonkakarius/avaliacao-horizontal/blob/main/Corre%C3%A7%C3%B5es/Resetadores.gs)
 
 Siga os passos abaixo:
 1. Na planilha, selecione sequencialmente o menu ```Extensões > Apps Script > Arquivos > Médias.gs```.
@@ -19,7 +19,7 @@ Siga os passos abaixo:
 
 ## Propósito
 
-O poder dessa planilha reside num menu personalizado para o CA que pode ser visto na barra superior de opções dela, chamado 'Funções do CA'. Ele contém 3 opções que automatizam funções que, se fossem feitas manualmente, poderiam demorar absurdos:
+O propósito dessa planilha reside num menu personalizado para o CA que pode ser visto na barra superior de opções dela, chamado 'Funções do CA'. Ele contém 3 opções que automatizam funções que, se fossem feitas manualmente, poderiam demorar absurdos:
 
 #### ```Atualizar formulário do Google Forms```
 
@@ -114,15 +114,17 @@ Você verá que ele só usa a API da sua conta para salvar os relatórios PDF no
 
 Com o formulário criado, você pode enviar o link dele (não o de edição, claro, mas o de preenchimento) para os alunos preencherem e registrarem as avaliações horizontais. Envie também para o instrutor realizar a avaliação vertical.
 
-Na aba ```Alunos```, é possível verificar pelo checkbox na coluna E os alunos que já preencheram o formulário. Quando todos houverem preenchido e também o avaliador vertical, basta:
-1. Selecione o menu personalizado ```Funções do CA```.
-2. Selecione a opção ```Criar relatórios individuais em PDF```.
+Na aba ```Alunos```, é possível verificar pelo checkbox na coluna ```E``` os alunos que já preencheram o formulário. Quando todos houverem preenchido e também o avaliador vertical, basta:
+1. Na aba ```Template``` da planilha, conferir o ano e o período de avaliação e alterar, se necessário.
+2. Selecione o menu personalizado ```Funções do CA```.
+3. Selecione a opção ```Criar relatórios individuais em PDF```.
+4. Esperar até o término do processo. Pode levar alguns minutos.
 
 Nesse momento, você verá uma mensagem na tela dizendo que o script começou a rodar, e depois a mensagem dirá que ele está em execução. Mantenha o computador conectado à internet. Quando todos os relatórios tiverem sido gerados, você verá uma mensagem na tela dizendo que o script foi concluído, e em seguida a mensagem desaparecerá após alguns segundos.
 
 Nesse momento, acesse a aba ```Relatórios``` da planilha e verifique os links de cada relatório gerado. Acessando cada link, você pode ver o relatório correspondente, e conferir se tudo foi gerado corretamente.
 
-Naturalmente, haverá um erro de cálculo caso aconteça de não haver todas as avaliações horizontais preenchidas. Garanta que todos os alunos preencheram as avaliações antes de você gerar os PDFs.
+Naturalmente, haverá um erro de cálculo caso aconteça de não haver todas as avaliações horizontais preenchidas. Garanta que todos os alunos preencheram as avaliações antes de gerar os PDFs.
 
 ## Envio de E-mails
 
